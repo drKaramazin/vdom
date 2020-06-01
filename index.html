@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <section>
+            <form onsubmit="submitForm(event)">
+                <div>
+                    <label>Введите число:</label>
+                    <input id="user-count" type="number">
+                </div>
+                <div>
+                    <span class="error" id="error-message"></span>
+                </div>
+                <div>
+                    <button type="submit">Ok, Go!</button>
+                </div>
+            </form>
+        </section>
+        <section id="result"></section>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

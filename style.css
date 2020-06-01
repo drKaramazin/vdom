@@ -1,0 +1,24 @@
+html {
+    font-family: Arial, Helvetica, Tahoma, Calibri, Verdana, sans-serif;;
+}
+
+section {
+    display: block;
+}
+
+html, body, div, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 4vmin;
+}
+
+.error {
+    color: #ff0000;
+}
