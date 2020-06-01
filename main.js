@@ -27,11 +27,6 @@
         };
 
         for (let i = 0; i < count; i++) {
-            // const li = document.createElement('li');
-            // const span = document.createElement('span');
-            // span.innerText = randomInteger(0, 8).toString();
-            // li.appendChild(span);
-            // containerElement.appendChild(li);
             vdom.children.push({
                 tagName: 'li',
                 children: [
